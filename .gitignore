@@ -1,0 +1,8 @@
+venv_mlops_p1/
+mlruns/
+mlflow.db
+logs/
+Hotel_Reservation_Project.egg-info/
+**/__pycache__/
+*.py[cod]
+*$py.class
