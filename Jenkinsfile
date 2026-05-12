@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     stages{
-        stage{'Cloning Github repository to Jenkins'}{
+        stage('Cloning Github repository to Jenkins'){
             steps{
                 script{
                     echo 'Cloning Github repository to Jenkins...'
