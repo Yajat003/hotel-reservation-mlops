@@ -3,7 +3,22 @@
 This is an end-to-end Machine Learning project where I built a system that predicts whether a hotel booking will be **cancelled or not**. The project covers everything from pulling data from Google Cloud to training a model and serving predictions through a web app built with Flask.
  
 I built this project to practice real-world MLOps concepts like pipelines, experiment tracking, modular code, and logging — stuff that goes beyond just writing a Jupyter notebook.
+
+---
  
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [How the ML Pipeline Works](#how-the-ml-pipeline-works)
+- [Flask Web Application](#flask-web-application)
+- [CI/CD with Jenkins](#cicd-with-jenkins)
+- [Project Setup](#project-setup)
+    - [Setup 1 — Run Locally](#setup-1--run-locally)
+    - [Setup 2 — Deploy on Google Cloud Platform](#setup-2--deploy-on-google-cloud-platform)
+- [CI/CD Pipeline Screenshots](#cicd-pipeline-screenshots)
+- [Learnings](#what-i-learned-from-this-project)
 ---
 
 ## Project Overview
@@ -128,7 +143,7 @@ Then open `http://127.0.0.1:5000` in your browser.
  
 ---
 
-## 🌐 Flask Web App (`application.py`)
+## Flask Web Application
  
 The web app is a simple form where you enter reservation details and the saved model predicts whether the booking will be cancelled.
  
@@ -187,7 +202,7 @@ The main Dockerfile for the Flask application:
  
 There are two ways to set up and run this project:
  
-### Setup 1 — Run Locally (Recommended for Beginners)
+### Setup 1 — Run Locally
  
 This is the straightforward way — just clone the repo, create a Python virtual environment, install dependencies, train the model, and run the app.
  
